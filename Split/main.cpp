@@ -46,7 +46,7 @@ void main()
 
 	// 5) Удаление массивов:
 	 delete[] odd_arr; 
-	 delete[] odd_arr; 
+	 delete[] even_arr; 
 }
 
 void FillRand(int arr[], const int n)

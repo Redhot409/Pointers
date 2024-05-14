@@ -26,7 +26,7 @@ int* pop_back(int arr[], int& n);
 void main()
 {
 	setlocale(LC_ALL, "");
-	int n;
+	int n;// не написали const тк массив будет объ€влен динамическим
 	cout << "¬ведите размер массива: "; cin >> n;
 	int* arr = new int[n];
 
