@@ -13,7 +13,7 @@ void main()
 
 	int a = 2;
 	int b = 3;
-	/*nt& ra = a;
+	/*int& ra = a;
 	ra += 3;
 	cout << a << endl;
 	cout << &a << endl;
